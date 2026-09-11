@@ -103,6 +103,9 @@ export default function Navbar() {
             <Link to="/products" className={`text-sm font-semibold transition-colors ${isScrolled ? 'text-gray-800 hover:text-amber-600' : 'text-white hover:text-amber-400'}`}>
               {t.nav.products}
             </Link>
+            <Link to="/kvkk" className={`text-sm font-semibold transition-colors ${isScrolled ? 'text-gray-800 hover:text-amber-600' : 'text-white hover:text-amber-400'}`}>
+              KVKK
+            </Link>
             <Link to="/contact" className={`text-sm font-semibold transition-colors ${isScrolled ? 'text-gray-800 hover:text-amber-600' : 'text-white hover:text-amber-400'}`}>
               {t.nav.contact}
             </Link>
@@ -169,6 +172,9 @@ export default function Navbar() {
             </Link>
             <Link to="/products" onClick={() => setIsMenuOpen(false)} className="block py-2 text-gray-700 hover:text-amber-600">
               {t.nav.products}
+            </Link>
+            <Link to="/kvkk" onClick={() => setIsMenuOpen(false)} className="block py-2 text-gray-700 hover:text-amber-600">
+              KVKK
             </Link>
             <Link to="/contact" onClick={() => setIsMenuOpen(false)} className="block py-2 text-gray-700 hover:text-amber-600">
               {t.nav.contact}
